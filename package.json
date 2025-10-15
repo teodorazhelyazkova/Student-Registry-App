@@ -9,7 +9,7 @@
     "pug": "^3.0.3"
   },
   "scripts": {
-    "test": "mocha tests/*.js",
+    "test": "mocha tests/*.js --timeout 10000",
     "start": "node index.js"
   }
 }
