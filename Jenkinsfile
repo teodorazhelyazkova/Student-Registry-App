@@ -11,7 +11,7 @@ pipeline {
                 bat 'npm audit' 
             }
         }
-        stage('Test') { 
+        stage('Run integration test') { 
             steps {
                 bat 'npm run test' 
             }
